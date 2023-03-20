@@ -1,70 +1,90 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
     <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DevTony Portfolio Website</title>
-        <link rel = "stylesheet"
-        href = "https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize/min.css">
-        <link rel = "stylesheet"
-        href = "https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity = "sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc"
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize/min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc"
         crossorigin="anonymous"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
     </head>
+
     <body>
         <header>
 
-            <div class = "logo">
+            <div class="logo">
                 <img src="" alt="">
             </div>
-            <button class = "nav-toggle" aria-label="toggle navigation">
-                <span class = "hamburger"></span>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
             </button>
-            <nav class = "nav">
-                <ul class = "nav__list">
-                    <li class = "nav__item"> <a href="#home" class="nav__list"> Home </a></li>
-                    <li class = "nav__item"> <a href="#education" class="nav__list"> About Me </a></li>
-                    <li class = "nav__item"> <a href="#about" class="nav__list"> Education </a></li>
-                    <li class = "nav__item"> <a href="#project" class="nav__list"> Projects </a></li>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="#home" class="nav__list"> Home </a></li>
+                    <li class="nav__item"> <a href="#education" class="nav__list"> About Me </a></li>
+                    <li class="nav__item"> <a href="#about" class="nav__list"> Education </a></li>
+                    <li class="nav__item"> <a href="#project" class="nav__list"> Projects </a></li>
                 </ul>
             </nav>
         </header>
 
         <!--Introduction-->
-        <section class = "intro" id = "home">
-            <h1 class = "section__title section__title--intro"> Hi, I am <strong>Tony Huang</strong></h1>
-            <p class = "section__subtitle section__subtitle--intro">Third-year Computer Science student</p>
-            <img src = "">
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro"> Hi, I am <strong>Tony Huang</strong></h1>
+            <p class="section__subtitle section__subtitle--intro">Third-year Computer Science student</p>
+            <img src="Profile.jpg" class="intro__img">
         </section>
 
         <!--About Me-->
         <section class="about-me" id="about">
             <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about"></p>
+            <p class="section__subtitle section__subtitle--about">Computer Science student at York University</p>
 
             <div class="about-me__body">
-                <p></p>
-                <p></p>
+                <p>I'm a fun, loving, and adventurous person who loves exploring new challenges. 
+                    I enjoy meeting new people and work extremely well in team enviroments.
+                    Being Vietnamese/Taiwanese, I bring a wealth of cultural experiences to the table that can add a unique twist to any workplace. </p>
+                <p>When it comes to learning and working, I'm all in, and I'll never back down from a challenge.
+                    I have an endless supply of energy and a tireless work ethic that keeps me going, even when the going gets tough.
+                    I take lots of pride in my ability to priortize and manage many complicated tasks at the same time.
+                    Overall, I'm confident that my enthusiastic personality and dedication to hard work would make me a valuable asset to any team. </p>
             </div>
 
-            <img src="">
+            <img src="Profile 2.jpg" class="about-me__image">
+
         </section>
 
         <!--Education-->
-        <section class = "my-education" id = "educatuon">
+        <section class="my-education" id="educations">
             <h2 class="section__title section__title--education">Education History</h2>
-            <div class="educationhistory">
+            <div class="educations">
 
                 <!--education item 01-->
                 <div class="education">
-                    <h3></h3>
-                    <p>
+                    <h3>Saigon South International School (2015-2019)</h3>
+                    <p>Completed high-school diploma studying a mix of AP/IB courses including computer science courses and robotics. Participated in two non-profit charity clubs and organized/lead school spirit club. </p>
                 </div>
 
                 <!--education item 02-->
                 <div class="education">
-                    <h3></h3>
-                    <p>
+                    <h3>University of Toronto (2019-2020)</h3>
+                    <p>Studied communications and media while taking math and computer science courses. 
+                        Relevant material includes mathematical proofs, basic calculus, and Python programming.</p>
+                </div>
+
+                <!--education item 02-->
+                <div class="education">
+                    <h3>Lassonde School of Engineering (2020-Present)</h3>
+                    <p>Currently studing computer science at the Lassonde School of Engineering at York University. 
+                        Relevant skills include programming in Java, C, Python, Javascript/HTML/CSS, Junit Testing, Agile development, SQL/relational databases, and operating systems.
+                    </p>
                 </div>
 
             </div>
@@ -73,39 +93,52 @@
         </section>
 
         <!--Projects-->
-        <section class="my-project" id = "project">
+        <section class="my-projects" id="project">
             <h2 class="section__title">My Projects</h2>
-            <p class="section__subtitle"></p>
+            <p class="section__subtitle">A selection of my projects</p>
 
-            <!--potfolio item 01 -->
             <div class="portfolio">
-                <a href="#" class="portfolio__item">
-                    <img src="" alt="" class="portfolio__img">
-                </a>
+
+                <!--potfolio item 01 -->
+                <div class="portfolio">
+                    <a href="#" class="portfolio__item">
+                        <img src="Disney+.png" alt="" class="portfolio__img">
+                    </a>
+                </div>
+
+                <!--potfolio item 02 -->
+                <div class="portfolio">
+                    <a href="#" class="portfolio__item">
+                        <img src="Uber.jpg" alt="" class="portfolio__img">
+                    </a>
+                </div>
+
+                <!--potfolio item 03 -->
+                <div class="portfolio">
+                    <a href="#" class="portfolio__item">
+                        <img src="" alt="" class="portfolio__img">
+                    </a>
+                </div>
+
+                <!--potfolio item 04 -->
+                <div class="portfolio">
+                    <a href="#" class="portfolio__item">
+                        <img src="" alt="" class="portfolio__img">
+                    </a> 
+                </div>
+
             </div>
 
-            <!--potfolio item 02 -->
-            <div class="portfolio">
-                <a href="#" class="portfolio__item">
-                    <img src="" alt="" class="portfolio__img">
-                </a>
-            </div>
-
-            <!--potfolio item 03 -->
-            <div class="portfolio">
-                <a href="#" class="portfolio__item">
-                    <img src="" alt="" class="portfolio__img">
-                </a>
-            </div>
-
-            <!--potfolio item 04 -->
-            <div class="portfolio">
-                <a href="#" class="portfolio__item">
-                    <img src="" alt="" class="portfolio__img">
-                </a>
-            </div>
-
+            
         </section>
 
+        <!--Footer-->
+        <footer>
+            <a href="mailto:tonyhuangb@gmail.com" class="footer__link">tonyhuangb@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="#GITHUB">a</a></li>
+                <li class="social-list__item"><a class="social-list__link" href="#LINKEDIN">b</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
