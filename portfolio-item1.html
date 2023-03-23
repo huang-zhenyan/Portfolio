@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>     
+    <body>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>DevTony Portfolio Website</title>
+            <link rel="stylesheet"
+            href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize/min.css">
+            <link rel="stylesheet"
+            href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+            crossorigin="anonymous"/>
+    
+            <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    
+            <link rel="stylesheet" href="css/style.css">    
+        </head>
+
+        <!--Header-->
+        <header>
+
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="index.html" class="nav__link"> Home </a></li>
+                    <li class="nav__item"> <a href="index.html#about" class="nav__link"> About Me </a></li>
+                    <li class="nav__item"> <a href="index.html#educations " class="nav__link"> Education </a></li>
+                    <li class="nav__item"> <a href="index.html#project" class="nav__link"> Projects </a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--Introduction-->
+        <section class="intro">
+            <h1 class="section__title section__title--intro"> Clone of <strong> Disney+ </strong></h1>
+            <p class="section__subtitle section__subtitle--intro">Utilizing React, styled components, and Firebase</p>
+            <img src="Disney+.jpg" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <img src="Disney+1.png">
+            <p>Landing page for the Disney plus clone using react routers to seperate the different components. 
+                The landing page includes the logo, login button, image slider, grid of entertainment companies, and recommended movies.</p>
+            <img src="Disney+2.png">
+            <p>The login page utlizes Firebase to access google accounts to login.</p>
+            <img src="Disney+3.png">
+            <p>Clicking on a movie will redirect the page to a movie html page with a background image, four clickable buttons and a short description.</p>
+            <img src="Disney+4.png">
+            <a href = "https://github.com/huang-zhenyan/disney-plus-clone"><p>Click this to be redirected to the code.</p></a>
+        </div>
+
+       <!--Footer-->
+        <footer class="footer">
+            <a href="mailto:tonyhuangb@gmail.com" class="footer__link">tonyhuangb@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/huang-zhenyan?tab=repositories">
+                        <i class="fab fa-github">Github</i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#LINKEDIN">
+                        <i class="fab fa-linkedin">LinkedIn</i>   
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

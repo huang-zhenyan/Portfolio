@@ -8,15 +8,17 @@
         href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize/min.css">
         <link rel="stylesheet"
         href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
         crossorigin="anonymous"/>
 
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">    
     </head>
 
     <body>
+
+        <!--Header-->
         <header>
 
             <div class="logo">
@@ -27,17 +29,17 @@
             </button>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"> <a href="#home" class="nav__list"> Home </a></li>
-                    <li class="nav__item"> <a href="#education" class="nav__list"> About Me </a></li>
-                    <li class="nav__item"> <a href="#about" class="nav__list"> Education </a></li>
-                    <li class="nav__item"> <a href="#project" class="nav__list"> Projects </a></li>
+                    <li class="nav__item"> <a href="#home" class="nav__link"> Home </a></li>
+                    <li class="nav__item"> <a href="#about" class="nav__link"> About Me </a></li>
+                    <li class="nav__item"> <a href="#educations " class="nav__link"> Education </a></li>
+                    <li class="nav__item"> <a href="#project" class="nav__link"> Projects </a></li>
                 </ul>
             </nav>
         </header>
 
         <!--Introduction-->
         <section class="intro" id="home">
-            <h1 class="section__title section__title--intro"> Hi, I am <strong>Tony Huang</strong></h1>
+            <h1 class="section__title section__title--intro"> Hello, I am <strong>Tony Huang</strong></h1>
             <p class="section__subtitle section__subtitle--intro">Third-year Computer Science student</p>
             <img src="Profile.jpg" class="intro__img">
         </section>
@@ -100,32 +102,30 @@
             <div class="portfolio">
 
                 <!--potfolio item 01 -->
-                <div class="portfolio">
-                    <a href="#" class="portfolio__item">
-                        <img src="Disney+.png" alt="" class="portfolio__img">
+                    <a href="portfolio-item1.html" class="portfolio__item">
+                        <img src="Disney+.jpg" alt="" class="portfolio__img">
                     </a>
-                </div>
 
                 <!--potfolio item 02 -->
-                <div class="portfolio">
-                    <a href="#" class="portfolio__item">
+                    <a href="portfolio-item2.html" class="portfolio__item">
                         <img src="Uber.jpg" alt="" class="portfolio__img">
                     </a>
-                </div>
 
                 <!--potfolio item 03 -->
-                <div class="portfolio">
-                    <a href="#" class="portfolio__item">
-                        <img src="" alt="" class="portfolio__img">
+                    <a href="portfolio-item3.html" class="portfolio__item">
+                        <img src="Uniswap.jpeg" alt="" class="portfolio__img">
                     </a>
-                </div>
 
-                <!--potfolio item 04 -->
-                <div class="portfolio">
-                    <a href="#" class="portfolio__item">
-                        <img src="" alt="" class="portfolio__img">
+                 <!--potfolio item 04 -->
+                    <a href="portfolio-item4.html" class="portfolio__item">
+                        <img src="Smile.jpg" alt="" class="portfolio__img">
                     </a> 
-                </div>
+
+
+                 <!--potfolio item 05 -->
+                    <a href="portfolio-item5.html" class="portfolio__item">
+                        <img src="CarPedestrian.jpg" alt="" class="portfolio__img">
+                    </a> 
 
             </div>
 
@@ -133,12 +133,23 @@
         </section>
 
         <!--Footer-->
-        <footer>
+        <footer class="footer">
             <a href="mailto:tonyhuangb@gmail.com" class="footer__link">tonyhuangb@gmail.com</a>
             <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link" href="#GITHUB">a</a></li>
-                <li class="social-list__item"><a class="social-list__link" href="#LINKEDIN">b</a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/huang-zhenyan?tab=repositories">
+                        <i class="fab fa-github">Github</i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#LINKEDIN">
+                        <i class="fab fa-linkedin">LinkedIn</i>   
+                    </a>
+                </li>
             </ul>
         </footer>
+
+        <script src="js/index.js"></script>
+
     </body>
 </html>
